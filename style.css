@@ -1,0 +1,45 @@
+
+.exo {
+    padding: 16px;
+    font-weight: 600;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 17.5px !important;
+}
+
+.search {
+    height: 30px;
+}
+
+.search > input {
+    padding:3px 12px !important;
+    height: 30px;
+}
+
+.highlight {
+    font-weight: 600 !important;
+}
+
+.highlightp {
+    font-weight: 800 !important;
+}
+
+.nav-f-s {
+    font-size: 17.5px !important;
+}
+
+.live > span ::after {
+    border: 1px solid #f64137;
+    border-radius: 2px;
+    content: 'Live';
+    display: inline-block !important;
+    font-size: .65em;
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    letter-spacing: .1em;
+    line-height: 1;
+    margin-inline-start: .5em;
+    margin-block-start: -.1em;
+    padding: .2em .3em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
