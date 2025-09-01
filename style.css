@@ -1,3 +1,8 @@
+.my-nav {
+    background-color: #000;
+}
+
+
 
 .exo {
     padding: 16px;
@@ -10,8 +15,8 @@
     height: 30px;
 }
 
-.search > input {
-    padding:3px 12px !important;
+.search>input {
+    padding: 3px 12px !important;
     height: 30px;
 }
 
@@ -27,7 +32,11 @@
     font-size: 17.5px !important;
 }
 
-.live > span ::after {
+p::after {
+    content: "  live";
+    background-color: black;
+    color: #fff;
+    padding: 10px;
     border: 1px solid #f64137;
     border-radius: 2px;
     content: 'Live';
@@ -37,8 +46,6 @@
     font-weight: 500;
     letter-spacing: .1em;
     line-height: 1;
-    margin-inline-start: .5em;
-    margin-block-start: -.1em;
     padding: .2em .3em;
     text-transform: uppercase;
     vertical-align: middle;
