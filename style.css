@@ -18,6 +18,7 @@
 .search>input {
     padding: 3px 12px !important;
     height: 30px;
+    background-color: #000;
 }
 
 .highlight {
@@ -49,4 +50,12 @@ p::after {
     padding: .2em .3em;
     text-transform: uppercase;
     vertical-align: middle;
+}
+
+.my-ul {
+    align-items: center !important;
+}
+
+.nasa >  a > p {
+    margin: 0px;
 }
